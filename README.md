@@ -1,12 +1,8 @@
-# Web Development Template
 
-#### This is a lightweight repository to deploy a basic project at the beginning of each Epicodus pair and solo project. It is meant to save time and support clean builds. Current as of June 1, 2016
-
-#### By Kevin VanEvery, Cory Olson, and Patrick Lipscomb
 
 ## Description
 
-This repository contains the following folders and files.  They can be used to support a basic project template for the beginning of each of your projects.
+This repository contains the following folders and files.
 
 ### css
 
@@ -43,11 +39,11 @@ This file contains basic markup for a starter page.  Markup includes a header an
 
 ### css/styles.css
 
-This is your custom css file.
+This is the custom css file.
 
 ### js/scripts.js
 
-This is your custom js file.
+This is the custom js file.
 
 ### README.md
 
@@ -92,4 +88,4 @@ Come by during class if you have questions.
 
 Licensed under the MIT License
 
-Copyright (c) 2016 **Epicodus Pair Projects**
+Copyright (c) 2016 **Igor Seleznov & Rony Nasr**
