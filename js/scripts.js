@@ -2,21 +2,31 @@
 var translate = function(sentence){
   var words = sentence.split(" ");
   words.forEach(function(word,index){
+    //if NaN
+    if (isNaN(word)) {
     //if it starts with a consonant
     while(startsWithVowel(word)=== false){
       word = moveConsonant(word);
     }
     //add "ay" anyway
-    words[index] = addAy(word);;
+    words[index] = addAy(word);
+  }
+  else {
+    //do somethimg with numbers
+    words[index] = addNumber(word);
+  }
   });
+
   return words.join(" ");
+}
+
+var addNumber = function (word) {
+  return word + "---";
 }
 
 //Add "ay" at the end
 var addAy = function(word){
-  var letters = word.split("");
-  letters.push('a','y');
-  return letters.join("");
+  return word+"ay";
 }
 
 //moves the 1st consonant to the end
@@ -31,6 +41,7 @@ var moveConsonant= function(word){
 
   return letters.join("");
 }
+
 
 //if the word starts with a vowel
 var startsWithVowel = function(word){
