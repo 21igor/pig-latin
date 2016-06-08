@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Web Development Template</title>
+    <title>Pig Latin Translator</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
 
     <!-- Bootstrap core CSS -->
@@ -30,16 +30,19 @@
 
   <body>
     <div class="container">
-      <header>
-        <h1>Epicodus Project Template</h1>
-      </header>
-      <h2>Hello World!</h2>
-      <p>
-        This is a nice little index file.  It calls in five different files to support Bootstrap, JQuery, and your custom css and js.
-      </p>
-      <footer>
-        <p>&copy; 2016 Epicodus Pair Project, Inc.</p>
-      </footer>
-    </div> <!-- end container -->
+     <h1>Pig Latin Translator</h1>
+
+     <form id="pig-latin">
+       <div class="form-group">
+         <label for="sentence">Enter a sentence to translate to pig latin:</label>
+         <input id="sentence" type="text">
+       </div>
+
+       <button type="submit" class="btn">Translate!</button>
+     </form>
+
+     <div id="result">
+
+     </div>
   </body>
 </html>
